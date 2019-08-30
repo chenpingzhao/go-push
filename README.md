@@ -11,19 +11,19 @@ golang实现的、可扩展的通用消息推送原型。
 * 下载go-push
 
 ```
-go get github.com/owenliang/go-push
+go get github.com/chenpingzhao/go-push
 ```
 
 * 编译gateway服务
 
 ```
-cd $GOPATH/src/github.com/owenliang/go-push/gateway/cli && go build
+cd $GOPATH/src/github.com/chenpingzhao/go-push/gateway/cli && go build
 ```
 
 * 编译logic服务
 
 ```
-cd $GOPATH/src/github.com/owenliang/go-push/logic/cli && go build
+cd $GOPATH/src/github.com/chenpingzhao/go-push/logic/cli && go build
 ```
 
 # 架构
@@ -49,11 +49,11 @@ cd $GOPATH/src/github.com/owenliang/go-push/logic/cli && go build
 
 ## 带宽
 
-![bandwidth](https://github.com/owenliang/go-push/blob/master/bandwidth.png?raw=true)
+![bandwidth](https://github.com/chenpingzhao/go-push/blob/master/bandwidth.png?raw=true)
 
 ## CPU占用
 
-![cpu usage](https://github.com/owenliang/go-push/blob/master/cpu.png?raw=true)
+![cpu usage](https://github.com/chenpingzhao/go-push/blob/master/cpu.png?raw=true)
 
 # logic的推送API
 
